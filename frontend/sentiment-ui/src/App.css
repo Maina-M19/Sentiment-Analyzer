@@ -1,0 +1,57 @@
+/* frontend/sentiment-ui/src/App.css */
+body {
+  background: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  /* padding: 10px; */
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.result.positive {
+  color: green;
+}
+
+.result.negative {
+  color: red;
+}
+
+.result.neutral {
+  color: gray;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
